@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(az devops configure:*)",
+      "Bash(az devops configure -l:*)",
+      "Bash(az account show:*)",
+      "Bash(az account list:*)",
+      "Bash(az devops project list:*)",
+      "Bash(az repos list:*)",
+      "Bash(az boards work-item show:*)",
+      "Bash(az boards query:*)",
+      "Bash(az repos pr list:*)",
+      "Bash(az repos pr show:*)"
+    ]
+  }
+}
